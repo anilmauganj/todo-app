@@ -1,0 +1,54 @@
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.formContainer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.inputBox {
+  padding: 12px;
+  width: 400px;
+  border: 1px solid #ccc;
+}
+
+.submitBtn {
+  font-size: 16px;
+  padding: 15px 30px;
+  background-color: green;
+  color: #fff;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.item {
+  background-color: bisque;
+  color: #000;
+  padding: 10px;
+  margin-bottom: 8px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.deleteBtn {
+  background-color: salmon;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
